@@ -14,7 +14,7 @@ public class FunctionalChaining {
 		Function<Double, Double> func2 = d -> d + 0.5;
 
 		// Simple chaining
-		System.out.println(func1.andThen(func2).apply(1.0));
+		System.out.println(func1.andThen(func2).apply(1.5));
 
 		// Chaining using Stream.of
 		//Function::andThen - function composition
@@ -33,7 +33,7 @@ public class FunctionalChaining {
 	{
 		Function<Double, Double> chainedFunction = Stream.of(combineFunctions)
 				                                         .reduce(function -> function,Function::andThen);
-		return chainedFunction.apply(1.0);
+		return chainedFunction.apply(1.5);
 	}
 	
 	
