@@ -18,8 +18,5 @@ public class EventApproverTest {
 		.filter(Optional::isPresent)
 		.findFirst()
 		.flatMap(Function.identity()));
-		
-		
-
 	}
 }
