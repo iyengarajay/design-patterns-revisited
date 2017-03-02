@@ -13,11 +13,9 @@ public class AnimalFactory {
 	}
 	
 	public Animal create(String animalName){
-		return animals.getOrDefault(animalName, 
-							() -> {throw new RuntimeException("Extinct");}
-						)
-				.get();
-				
+		
+		return animals.getOrDefault(animalName, () -> {throw new RuntimeException("Extinct");})
+					  .get();				
 	}	
 	
 }
