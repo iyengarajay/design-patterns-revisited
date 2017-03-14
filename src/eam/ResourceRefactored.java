@@ -20,6 +20,7 @@ public class ResourceRefactored {
 		ResourceRefactored.execute( resource -> {
 			resource.doSomethingUseful();
 			resource.doSomethingNotSoUseful();	
-		});}
+		});
+		}
 
 }

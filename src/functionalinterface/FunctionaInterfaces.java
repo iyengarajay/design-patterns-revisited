@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public class FunctionalInterfaceExample {
+public class FunctionaInterfaces {
 	
 	public static void main(String[] args) {
 		
@@ -20,7 +20,7 @@ public class FunctionalInterfaceExample {
 		c.accept("Ajay");
 		
 		//Function - 2 arguements, one is input and then the 2nd is the output.
-		Function<String,String> function = FunctionalInterfaceExample::functionCall;
+		Function<String,String> function = FunctionaInterfaces::functionCall;
 		System.out.println(function.apply("Ajay"));
 		
 		//Supplier -Takes no params and returns an object.

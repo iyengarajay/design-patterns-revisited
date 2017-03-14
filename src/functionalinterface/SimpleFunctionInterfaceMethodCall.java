@@ -1,9 +1,9 @@
-package function;
+package functionalinterface;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class FunctionInterface {
+public class SimpleFunctionInterfaceMethodCall {
 	
 	
 	public static void callMe(String input){
@@ -19,12 +19,12 @@ public class FunctionInterface {
 		callMe("Hello");
 		callMeAndReturn("Hello");
 
-		Consumer<String> callMe = FunctionInterface::callMe;
+		Consumer<String> callMe = SimpleFunctionInterfaceMethodCall::callMe;
 		callMe.accept("Hello");
 		
 		
 		
-		Function<String,String> callMeAndReturn = FunctionInterface::callMeAndReturn;
+		Function<String,String> callMeAndReturn = SimpleFunctionInterfaceMethodCall::callMeAndReturn;
 		callMeAndReturn.apply("Hello");
 		
 		
