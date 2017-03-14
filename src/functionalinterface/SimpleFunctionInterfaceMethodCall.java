@@ -16,6 +16,7 @@ public class SimpleFunctionInterfaceMethodCall {
 	}
 	
 	public static void main(String[] args) {
+		
 		callMe("Hello");
 		callMeAndReturn("Hello");
 

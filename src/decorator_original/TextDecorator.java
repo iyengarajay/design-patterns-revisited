@@ -1,4 +1,4 @@
-package decorator_orignial;
+package decorator_original;
 
 public abstract class TextDecorator implements Text {
 

@@ -1,4 +1,4 @@
-package decorator_orignial;
+package decorator_original;
 
 public class TextImpl {
 	public static void main(String args[]) {
