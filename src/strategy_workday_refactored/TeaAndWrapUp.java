@@ -1,14 +1,12 @@
-package strategy_new_refactored;
+package strategy_workday_refactored;
 
 import java.time.LocalTime;
 
-public class TeaAndWrapUp implements WorkStrategy{
+public class TeaAndWrapUp implements WorkStrategy {
 
-
-	
 	@Override
 	public boolean checkTime(LocalTime localTime) {
-		return localTime.getHour() > 16 && localTime.getHour() < 18; 
+		return localTime.getHour() > 16 && localTime.getHour() < 18;
 	}
 
 	@Override

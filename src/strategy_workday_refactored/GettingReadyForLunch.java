@@ -1,14 +1,12 @@
-package strategy_new_usual;
+package strategy_workday_refactored;
 
 import java.time.LocalTime;
 
-public class GettingReadyForLunch implements WorkStrategy{
+public class GettingReadyForLunch implements WorkStrategy {
 
-
-	
 	@Override
 	public boolean checkTime(LocalTime localTime) {
-		return localTime.getHour() > 12 && localTime.getHour() < 14; 
+		return localTime.getHour() > 12 && localTime.getHour() < 14;
 	}
 
 	@Override

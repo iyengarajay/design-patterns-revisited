@@ -1,14 +1,12 @@
-package strategy_new_refactored;
+package strategy_workday_refactored;
 
 import java.time.LocalTime;
 
-public class SocialMediaStrategy implements WorkStrategy{
+public class SocialMediaStrategy implements WorkStrategy {
 
-
-	
 	@Override
 	public boolean checkTime(LocalTime localTime) {
-		return localTime.getHour() > 10 && localTime.getHour() < 12; 
+		return localTime.getHour() > 10 && localTime.getHour() < 12;
 	}
 
 	@Override

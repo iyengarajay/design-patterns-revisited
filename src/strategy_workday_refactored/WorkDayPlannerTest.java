@@ -1,4 +1,4 @@
-package strategy_new_refactored;
+package strategy_workday_refactored;
 
 import java.time.LocalTime;
 
