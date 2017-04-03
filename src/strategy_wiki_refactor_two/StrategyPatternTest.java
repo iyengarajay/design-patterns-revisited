@@ -1,4 +1,4 @@
-package strategy2;
+package strategy_wiki_refactor_two;
 
 import java.util.function.Function;
 

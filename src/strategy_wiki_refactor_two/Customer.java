@@ -1,4 +1,4 @@
-package strategy1;
+package strategy_wiki_refactor_two;
 
 import java.util.ArrayList;
 import java.util.List;

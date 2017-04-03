@@ -1,4 +1,4 @@
-package strategy3;
+package strategy_wiki_refactor_three;
 
 import java.util.function.Function;
 

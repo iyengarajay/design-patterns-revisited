@@ -1,4 +1,4 @@
-package strategy1;
+package strategy_wiki_refactor_one;
 /*package lambda1;
 
 public interface BillingStrategy {

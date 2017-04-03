@@ -1,22 +1,20 @@
-package strategy2;
+package strategy_wiki_refactor_three;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
 
 public class Customer {
 	
 	private List<Double> drinks = new ArrayList<>();
 	
-	private Function<Double, Double> billingStrategy;
+	private BillingStrategy billingStrategy;
 	
-	
-	public Customer(Function<Double, Double> billingStrategy){
+	public Customer(BillingStrategy billingStrategy){
 		this.billingStrategy=billingStrategy;
 	}
 	
 	public void add(double price, int quantity){
-		drinks.add(billingStrategy.apply(price * quantity));
+		drinks.add(billingStrategy.getActualPrice(price * quantity));
 	}
 
 	public void printBill(){
@@ -27,7 +25,7 @@ public class Customer {
 		System.out.println("Total Bill : "+sum);
 	}
 	
-	public void setStrategy(Function<Double, Double> billingStrategy){
+	public void setStrategy(BillingStrategy billingStrategy){
 		this.billingStrategy=billingStrategy;
 	}
 }

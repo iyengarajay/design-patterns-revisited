@@ -1,4 +1,4 @@
-package strategy1;
+package strategy_wiki_refactor_one;
 
 /*public class NormalStrategy implements BillingStrategy{
 

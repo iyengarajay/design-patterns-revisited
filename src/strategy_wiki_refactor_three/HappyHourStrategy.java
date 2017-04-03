@@ -1,5 +1,4 @@
-package strategy1;
-/*package lambda1;
+package strategy_wiki_refactor_three;
 
 public class HappyHourStrategy implements BillingStrategy{
 
@@ -10,4 +9,3 @@ public class HappyHourStrategy implements BillingStrategy{
 	
 
 }
-*/
