@@ -1,5 +1,6 @@
 package command_tp;
 
+//Concrete Command
 public class SellStock implements Order {
 	private Stock abcStock;
 

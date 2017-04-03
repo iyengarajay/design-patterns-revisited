@@ -1,5 +1,6 @@
 package command_tp;
 
+//Receiver
 public class Stock {
 
 	private String name = "APPLE";

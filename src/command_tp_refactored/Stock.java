@@ -1,5 +1,7 @@
 package command_tp_refactored;
 
+
+//Receiver
 public class Stock {
 
 	private String name = "APPLE";

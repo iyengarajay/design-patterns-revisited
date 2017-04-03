@@ -3,6 +3,8 @@ package command_tp_refactored;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//Invoker
 public class Broker {
 	
 	private List<Order> orderList = new ArrayList<Order>();

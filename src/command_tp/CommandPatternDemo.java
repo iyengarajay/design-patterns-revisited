@@ -1,5 +1,7 @@
 package command_tp;
 
+
+//Client
 public class CommandPatternDemo {
 	public static void main(String[] args) {
 		
