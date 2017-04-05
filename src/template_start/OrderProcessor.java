@@ -2,7 +2,7 @@ package template_start;
 
 public abstract class OrderProcessor {
 	
-	public void shipOrder(Long customerId, Long orderId){
+	public void placeOrder(Long customerId, Long orderId){
 		//1.Get customer details
 		Customer c = getCustomer();
 		

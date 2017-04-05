@@ -11,8 +11,8 @@ public class ManagerTest {
 		QualityAnalyst qualityAnalyst = new QualityAnalyst(projectManager);
 		Architect architect = new Architect(projectManager);
 
-		//projectManager.setEvent(Event.LEAVING_FOR_THE_DAY);
-		projectManager.setEvent(Event.APPRAISAL_MEETING);		
+		projectManager.setEvent(Event.LEAVING_FOR_THE_DAY);
+		//projectManager.setEvent(Event.APPRAISAL_MEETING);		
 
 	}
 

@@ -27,6 +27,7 @@ public class ManagerObservers {
 	}
 
 	public static void notifyArchitect(Event event) {
+		System.out.println("Architect - ");
 		if (event == Event.APPRAISAL_MEETING) {
 			System.out.println(
 					"Talk about the so called design patterns implemented, how good and flexible the architecture is !");
