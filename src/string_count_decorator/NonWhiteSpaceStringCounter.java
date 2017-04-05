@@ -2,10 +2,9 @@ package string_count_decorator;
 
 public class NonWhiteSpaceStringCounter extends StringCountDecorator {
 
-	private StringCount characterCount;
 
 	public NonWhiteSpaceStringCounter(StringCount characterCount) {
-		this.characterCount = characterCount;
+		super(characterCount);
 	}
 
 	public int count(String input) {

@@ -2,10 +2,10 @@ package string_count_decorator;
 
 public class ExcludeNumberStringCounter extends StringCountDecorator {
 
-	private StringCount characterCount;
+	//private StringCount characterCount;
 
 	public ExcludeNumberStringCounter(StringCount characterCount) {
-		this.characterCount = characterCount;
+		super(characterCount);
 	}
 
 	public int count(String input) {

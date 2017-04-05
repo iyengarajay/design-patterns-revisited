@@ -13,10 +13,7 @@ public class Broker {
 	}
 
 	public void placeOrders() {
-
-		for (Order order : orderList) {
-			order.execute();
-		}
+		orderList.forEach(order -> order.execute());
 		orderList.clear();
 	}
 }

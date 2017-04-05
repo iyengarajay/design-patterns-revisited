@@ -7,6 +7,7 @@ import command_tp_refactored.Stock;
 public class CommandPatternDemo {
 	public static void main(String[] args) {
 		
+		//Stock
 		Stock abcStock = new Stock();
 
 		Broker broker = new Broker();
@@ -14,9 +15,10 @@ public class CommandPatternDemo {
 		broker.takeOrder(() -> abcStock.buy());
 		broker.takeOrder(() -> abcStock.sell());
 
-		Bond bond = new Bond();
-		broker.takeOrder(() -> bond.buyBonds());
-		broker.takeOrder(() -> bond.sellBonds());
+		//Bond
+		Bond reliance = new Bond();
+		broker.takeOrder(() -> reliance.buyBonds());
+		broker.takeOrder(() -> reliance.sellBonds());
 
 		
 		broker.placeOrders();
